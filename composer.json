@@ -6,8 +6,7 @@
     "psr-4": {
       "core\\": "core/",
       "app\\": "app/",
-      "tests\\": "tests/",
-      "imaginaire2\\": "imaginaire2/"
+      "tests\\": "tests/"
     }
   },
   "minimum-stability": "dev",
