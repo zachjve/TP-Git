@@ -11,14 +11,15 @@
 
 <body>
   <header>
-    <div>
+    <div class = "title">
       <a href="">Home</a>
     </div>
-    <div>
-      <img src="https://picsum.photos/35" alt="" />
+    <div class="dropDownList">
+      <img src="https://picsum.photos/50" alt="" />
       <nav>
         <?php
-        if ($datas[0] === false) { ?>
+        $datas = false;
+        if ($datas === false) { ?>
           <ul>
             <li><a href="">Connexion</a></li>
             <li><a href="">Inscription</a></li>
