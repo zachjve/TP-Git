@@ -2,11 +2,7 @@ CREATE DATABASE "TPDiapo";
 USE TPDiapo;
 
 CREATE USER 'AppDiapo'@'localhost' IDENTIFIED BY 'azerty';
-
-
-
-
-
+GRANT ALL PRIVILEGES ON TPDiapo.* to 'AppDiapo'@'localhost' IDENTIFIED BY 'azerty';
 
 CREATE TABLE Utilisateur(
     id int PRIMARY KEY AUTO_INCREMENT,
