@@ -1,13 +1,12 @@
 {
-  "name": "app/mediatheque",
-  "description": "Mediathèque project",
+  "name": "it-akademy/tp-diapo",
+  "description": "Un TP pour tester le versionning git et le travail collaboratif",
   "type": "project",
   "autoload": {
     "psr-4": {
       "core\\": "core/",
       "app\\": "app/",
-      "tests\\": "tests/",
-      "imaginaire2\\": "imaginaire2/"
+      "tests\\": "tests/"
     }
   },
   "minimum-stability": "dev",
