@@ -1,0 +1,11 @@
+footer {
+    background-color: $base;
+    border: 2px solid $border;
+    p {
+        color: $title;
+        font-size: 2em;
+    }
+    text-align: center;
+    height: 5em;
+    padding-bottom: 1%;
+}

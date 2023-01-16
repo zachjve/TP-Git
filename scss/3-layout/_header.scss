@@ -1,0 +1,65 @@
+header {
+    background-color: $base;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    height: 5em;
+    border: 2px solid $border;
+
+      .dropDownList {
+        position: relative;
+        
+          nav {
+            position: absolute;
+            top: 50px;
+            width: 150px;
+            text-align: center;
+            opacity: 0%;
+            overflow: hidden;
+            right: 0;
+            border: 2px solid $border;
+            transition: 0.3s;
+            margin-right: 25px;
+              ul {
+                padding-left: 1%;
+                padding-right: 1%;
+                  li {
+                    padding-top: 5px;
+                    padding-bottom: 15px;
+                    a {
+                      color: $title;
+                      text-decoration: none;
+                    }
+                  }
+              }
+            background-color: lighten($base, 10);
+          }
+          
+      }
+
+      .dropDownList:hover nav {
+        opacity: 100%;
+      }
+
+      img {
+      width: 5em;
+      height: 5em;
+      }
+
+      .title {
+        a {
+          text-decoration: none;
+          color: $title;
+          transition: 0.3s;
+        }
+        a:hover {
+          color: darken($title, 10%);
+        }
+        font-size: 2em;
+        margin-top: 1%;
+        margin-left: 1%;
+
+      }
+      
+}
+
